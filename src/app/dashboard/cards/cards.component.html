@@ -1,0 +1,11 @@
+<div class="cards">
+  <div  class="card" (mouseenter)="game.display = !game.display" (mouseleave)="game.display = !game.display" *ngFor="let game of infoArr ">
+    <div>{{game.image}}</div>
+    <h2 >{{game.name}}</h2>
+    <h3>Category: {{game.category}}</h3>
+    <h3>Cost: {{game.cost}}</h3>
+    <h3 *ngIf="game.display" class="info">{{game.company}}</h3>
+    <button *ngIf="game.display" class="buy">{{game.buy}}</button>
+  </div>
+</div>
+

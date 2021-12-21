@@ -1,0 +1,45 @@
+.friends {
+  width: 400px;
+  height: 965px;
+  margin-left: 500px;
+  background-color: #4b4546;
+  display: block;
+  color: orange;
+}
+
+.head {
+  border-bottom: 2px solid orange;
+  font-size: 40px;
+  padding: 20px;
+}
+.list {
+  padding: 20px;
+}
+
+.info {
+  margin-bottom: 50px;
+}
+
+.online {
+  border: 2px solid green;
+}
+
+.offline {
+  border: 2px solid red;
+}
+
+.online, .offline {
+  padding: 5px;
+}
+.friend {
+  display: flex;
+  padding: 5px;
+  cursor: default;
+}
+
+.photo {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  border-radius: 10px;
+}

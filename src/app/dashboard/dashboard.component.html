@@ -1,0 +1,19 @@
+<div class="shop">
+  <div class="list">
+    <div class="cards">
+      <div class="info">
+        <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLQV6-Zzq6DkzZSLI4IS5dD42Dbw9htAPl__zxclMw=s900-c-k-c0x00ffffff-no-rj">
+        <p class="Nickname">SosiskaKiller</p>
+      </div>
+      <button class="card" *ngFor="let route of routes" (click)="navigateTo(route.path)">
+        {{route.viewValue}}
+      </button>
+      <ul class="downloads">
+        <li><a class="download" href="">Download Nova Games for Windows</a></li>
+        <li><a class="download" href="">Download Nova Games for IOS</a></li>
+        <li><a class="download" href="">Download Nova Games for Linux</a></li>
+      </ul>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

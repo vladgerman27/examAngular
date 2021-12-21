@@ -1,0 +1,48 @@
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: orange;
+}
+.card{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin: 30px;
+  background-color: #4b4546;
+  z-index: 0;
+}
+
+.image {
+  width: 200px;
+  height: 250px;
+}
+
+.info {
+  margin: 10px;
+  position: relative;
+}
+
+.buy {
+  width: 100px;
+  height: 30px;
+  border: 2px solid orange;
+  color: orange;
+  background-color: #241f20;
+  border-radius: 15px;
+}
+
+.buy:hover {
+  color: #9e5f00;
+  border-color: #9e5f00;
+}
+
+
+/*.add-text {*/
+/*  color: red;*/
+/*}*/
